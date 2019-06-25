@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d94f7b49e10349b8503f6c879bf3c5a",
+    "revision": "f9a14f83e9b4bfd0f7d2ec1690c72f05",
     "url": "/flip/index.html"
   },
   {
-    "revision": "0ba6b8c832cb63226170",
+    "revision": "05a22e9e67d099dfc43b",
     "url": "/flip/static/css/main.fad94b35.chunk.css"
   },
   {
-    "revision": "2f5e0036b126677a485b",
-    "url": "/flip/static/js/2.f5acdf35.chunk.js"
+    "revision": "d34a7cd30393f57bd132",
+    "url": "/flip/static/js/2.e203e9c1.chunk.js"
   },
   {
-    "revision": "0ba6b8c832cb63226170",
-    "url": "/flip/static/js/main.71cfc065.chunk.js"
+    "revision": "05a22e9e67d099dfc43b",
+    "url": "/flip/static/js/main.5cd0663f.chunk.js"
   },
   {
     "revision": "adfcd50c11b9300b7d88",
@@ -80,6 +80,46 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flip/static/media/07-inercia-cubiertas1.18e0a958.jpg"
   },
   {
+    "revision": "d50f1ddcea816ab724ebbe1862364f7f",
+    "url": "/flip/static/media/07-inercia-losas.d50f1ddc.jpg"
+  },
+  {
+    "revision": "2b5a87cc4024244111d9f1e977fe4b70",
+    "url": "/flip/static/media/07-inercia-losas1.2b5a87cc.jpg"
+  },
+  {
+    "revision": "d50f1ddcea816ab724ebbe1862364f7f",
+    "url": "/flip/static/media/07-inercia-menu.d50f1ddc.jpg"
+  },
+  {
+    "revision": "d71036b765d8910a91f62fe3fe7cef0b",
+    "url": "/flip/static/media/07-inercia-menu1.d71036b7.jpg"
+  },
+  {
+    "revision": "1fe94ab70329be1df53710d7cb7f661d",
+    "url": "/flip/static/media/07-inercia-muro.1fe94ab7.jpg"
+  },
+  {
+    "revision": "1406ac95d0b091e17c40a68f2bcba437",
+    "url": "/flip/static/media/07-inercia-muro1.1406ac95.jpg"
+  },
+  {
+    "revision": "d50f1ddcea816ab724ebbe1862364f7f",
+    "url": "/flip/static/media/07-inercia-pisos.d50f1ddc.jpg"
+  },
+  {
+    "revision": "5092b5351c068bd070ffbc8740ef67f7",
+    "url": "/flip/static/media/07-inercia-pisos1.5092b535.jpg"
+  },
+  {
+    "revision": "5b01328ef99cb1c2a1dc92a22577ec6c",
+    "url": "/flip/static/media/07-inercia-terreno.5b01328e.jpg"
+  },
+  {
+    "revision": "13621a4944ed09545891643495b8682f",
+    "url": "/flip/static/media/07-inercia-terreno1.13621a49.jpg"
+  },
+  {
     "revision": "528f44b2cd45ff93352d222d14500917",
     "url": "/flip/static/media/08-solar.528f44b2.jpg"
   },
@@ -96,11 +136,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flip/static/media/09-geotermica1.a56ca488.jpg"
   },
   {
+    "revision": "2ff96073a976b292928c1b65ed074387",
+    "url": "/flip/static/media/10-eficiencia-geotermica a.2ff96073.jpg"
+  },
+  {
+    "revision": "c40b2a2573c4234a7e54e59903fcefdb",
+    "url": "/flip/static/media/10-eficiencia-geotermica a1.c40b2a25.jpg"
+  },
+  {
+    "revision": "45bb62c9ad8fba2232892c4090823472",
+    "url": "/flip/static/media/10-eficiencia-geotermica a2.45bb62c9.jpg"
+  },
+  {
     "revision": "66fdb64ed869e5966d3617a82edabd5b",
     "url": "/flip/static/media/10-eficiencia-menu.66fdb64e.jpg"
   },
   {
     "revision": "426b34b71797a08947de80e2c0f5080c",
     "url": "/flip/static/media/10-eficiencia-menu1.426b34b7.jpg"
+  },
+  {
+    "revision": "53066bb0312e9e10f5fd32abc8be2e82",
+    "url": "/flip/static/media/10-eficiencia-solar.53066bb0.jpg"
+  },
+  {
+    "revision": "f2925c78da8906575e8ba54cf3850bb4",
+    "url": "/flip/static/media/10-eficiencia-solar1.f2925c78.jpg"
   }
 ]);
