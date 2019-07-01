@@ -9,5 +9,9 @@ export const Wrapper = styled.div`
 export const Container = styled.div`
   .fixed {
     position: fixed;
+    color: #525252;
   }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 `;

@@ -14,9 +14,18 @@ const Chips = ({ chips }) => (
   <Wrapper>
     {chips.map((chip, index) => {
       return (
-        <React.Fragment key={chip}>
-          <Chip text={chip} />
-          <ReveresedChip text={chip} />
+        <React.Fragment key={index}>
+          <Chip chip={chip.first} />
+          <ReveresedChip
+            chip={chip.second}
+            color={
+              chip.second.id === 6 ||
+              chip.second.id === 8 ||
+              chip.second.id === 10
+                ? true
+                : false
+            }
+          />
         </React.Fragment>
       );
     })}

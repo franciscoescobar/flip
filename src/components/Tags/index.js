@@ -2,10 +2,10 @@ import React from "react";
 import { Wrapper, Ball } from "./styled";
 const Tags = () => (
   <Wrapper>
-    <p>Arquitectura bioclimatica</p>
+    <p>Arquitectura bioclimática</p>
     <Ball />
-    <p>Arquitectura bioclimatica</p>
-    <Ball />
+    <p>Energías</p>
+    <Ball className="green" />
   </Wrapper>
 );
 

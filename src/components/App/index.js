@@ -6,9 +6,9 @@ import Item from "../../pages/Item";
 function App() {
   return (
     <Router>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/flip/" component={Home} />
       <Route exact path="/menu/" component={Menu} />
-      <Route path="/menu/:menuItem" component={Item} />
+      <Route path="/menu/:itemId" component={Item} />
     </Router>
   );
 }

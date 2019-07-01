@@ -1,43 +1,38 @@
 import React from "react";
-import styled from "styled-components";
-const SubTitle = styled.h3`
-  font-weight: 400;
-  font-size: 16px;
-  color: #6497b1;
-`;
-const Title = styled.h1`
-  font-weight: 400;
-  font-size: 24px;
-`;
-const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-top: -3rem;
-  > * {
-    margin-left: 3rem;
-    margin-right: 1rem;
-  }
-  hr {
-    border: 1px solid #cbcbcb;
-    width: 80%;
-  }
-`;
-const Info = () => (
+import { Wrapper, SubTitle, Title } from "./styled";
+const Info = ({ chip, subtitle, handleListClick }) => (
   <Wrapper>
-    <SubTitle>Arquitectura bioclimática</SubTitle>
+    {chip.id === 6 || chip.id === 8 || chip.id === 10 ? (
+      <SubTitle className="green">Energías</SubTitle>
+    ) : (
+      <SubTitle>Arquitectura bioclimática</SubTitle>
+    )}
     <hr />
-    <Title>Orientacion</Title>
+    <Title>{chip.title.toUpperCase()}</Title>
+    {subtitle ? <Title>{subtitle}</Title> : null}
+
     <hr />
-    <p className="first-body">
-      La orientación de un edificio determina su posisicón respecto al recorrido
-      del sol y la dirección de los vientos predominantes en la zona.
-    </p>
-    <p className="second-body">
-      Anchipurac dispone la mayor cantidad de superficies de fachadas hacia el
-      Norte y el Sur, favoreciendo una exceletente iluminación natural durante
-      la mayoría de las horas del día. Además esto le permite captar desde el
-      Sur - Este las brisas frescas del verano.
-    </p>
+    <p className="first-body">{chip.body1}</p>
+    <p className="second-body">{chip.body2}</p>
+    {!subtitle && chip.id === 7 ? (
+      <div className="list">
+        <p className="second-body" onClick={() => handleListClick(1)}>
+          1.Terreno
+        </p>
+        <p className="second-body" onClick={() => handleListClick(2)}>
+          2.Muros
+        </p>
+        <p className="second-body" onClick={() => handleListClick(3)}>
+          3.Losas
+        </p>
+        <p className="second-body" onClick={() => handleListClick(4)}>
+          4.Pisos
+        </p>
+        <p className="second-body" onClick={() => handleListClick(5)}>
+          5.Cubiertas
+        </p>
+      </div>
+    ) : null}
   </Wrapper>
 );
 

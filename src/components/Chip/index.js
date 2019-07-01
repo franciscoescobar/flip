@@ -1,15 +1,17 @@
 import React from "react";
 import { Wrapper } from "./styled";
 import { withRouter } from "react-router-dom";
-const Chip = ({ text, history }) => {
+const Chip = ({ chip, history }) => {
   const onChipClick = event => {
-    history.push(`/menu/${text}`);
+    history.push(`/menu/${chip.id}`);
   };
   return (
-    <Wrapper onClick={onChipClick}>
-      <i className="fas fa-plus-circle" />
-      <p>Orientacion</p>
-    </Wrapper>
+    <div>
+      <Wrapper onClick={onChipClick}>
+        <i className="fas fa-plus-circle" />
+        <p>{chip.title}</p>
+      </Wrapper>
+    </div>
   );
 };
 
